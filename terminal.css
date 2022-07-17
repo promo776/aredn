@@ -5,16 +5,17 @@ body {
 	color: white;
 }
 
-button {
-	// styles reset, including removing the default dropdown arrow
+button, input[type=button], input[type=file] {
+/* 	styles reset, including removing the default dropdown arrow */
 	appearance: none;
   	-webkit-appearance: none;
   	-moz-appearance: none;
   	display: inline-block;
 }
 
-button, input, select, textarea {
+button, input[type=submit], input[type=button], input[type=file] {
 	cursor: pointer;
+	font-family: "Courier New", serif;
 	text-align: center;
 	white-space: nowrap;
 	min-width: 28px;
@@ -23,14 +24,39 @@ button, input, select, textarea {
 	padding-top: 4px;
 	padding-bottom: 4px;
 	border: none;
+	border-radius: 5px;
 	font-size: 12px;
-	font-family: "Courier New", serif;
-	background: gray;
+}
+
+button, input[type=submit], input[type=button] {
+ 	background-color: rgba(255, 255, 255, 0.2);
 	color: white;
 }
 
-button, input, select {
-		border-radius: 50px;
+input[type=text], input[type=password], textarea {
+	font-family: "Courier New", serif;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	background-color: black;
+}
+
+input[type=text] {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+textarea {
+	padding-top: 1.2em;
+	padding-left: 1.2em;
+}
+
+select {
+	font-family: "Courier New", "Courier", serif;
+	color: white;
+	background-color: black;
 }
 
 a:link {
@@ -47,7 +73,6 @@ a:active {
 
 h1 {
 	font-size: 40px;
-/* 	font-family: "Courier New",serif; */
 }
 
 hr {
@@ -66,18 +91,8 @@ table {
 }
 
 body table {
-/*     font-size: 17px; */
     width: 80%;
 }
-
-/*
-th {
-        background-color: whitesmoke;                                     
-        color: black;                           
-        font-weight: bold;
-        cursor: default;                                               
-}
-*/
 
 .dist-alert {
     border: medium solid red;
@@ -89,24 +104,21 @@ th {
 
 
 .navbar_select {
-    background: blue;
+   	background-color: rgba(255, 255, 255, 0.2);
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .navbar_select a:link {
-/*     background: rgba(0,0,0,0.8); */
     color: white
 }
 
 .navbar_select a:visited {
-    background: rgba(0,0,0,0.8);
     color: white
 }
 
 .navbar_select a:active {
-    background: rgba(0,0,0,0.8);
-    color: red;
+    color: white;
 }
 
 .TopBanner {
