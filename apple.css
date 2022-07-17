@@ -1,0 +1,186 @@
+body {
+	font-size: 16px;
+	line-height: 1.47059;
+	font-weight: 400;
+	letter-spacing: -.022em;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	background-color: #fff;
+	color: #1d1d1f;
+	font-style: normal;
+}
+
+button, input, select {
+	// styles reset, including removing the default dropdown arrow
+	appearance: none;
+  	-webkit-appearance: none;
+  	-moz-appearance: none;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 14px;
+	line-height: 1.17648;
+	font-weight: 400;
+	letter-spacing: -.022em;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	min-width: 28px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: none;
+	border-radius: 980px;
+	background: #0071e3;
+	color: #fff;
+}
+
+a:link {
+    color: #06c;
+}
+
+a:visited {
+    color: #06c;
+}
+
+a:active {
+    color: #06c;
+}
+
+h1 {
+	font-size: 48px;
+	line-height: 1.07143;
+	font-weight: 600;
+	letter-spacing: -.005em;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    /*color: rgb(108, 231, 232);
+    background-color: rgb(108, 231, 232);*/
+}
+
+table {
+    border-collapse: collapse;
+    border: 0px;
+}
+
+body table {
+    font-size: 17px;
+    width: 80%;
+}
+
+.dist-alert {
+    border: medium solid red;
+}
+
+.dist-norm {
+    border: none;
+}
+
+
+.navbar_select {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    border-radius: 10px;
+}
+
+.navbar_select a:link {
+    background: rgba(0,0,0,0.8);
+    color: white
+}
+
+.navbar_select a:visited {
+    background: rgba(0,0,0,0.8);
+    color: white
+}
+
+.navbar_select a:active {
+    background: rgba(0,0,0,0.8);
+    color: white
+}
+
+.TopBanner {
+    width: 100%;
+}
+
+.LogoDiv {
+    position: absolute left:0px;
+    width: 100%;
+    height: 95;
+}
+
+.AREDNLogo {
+    background: rgb(231, 231, 231);
+    position: absolute;
+    left: 10%;
+    width: 175;
+    height: 95;
+    border-style: none;
+}
+
+.PartOfAREDN {
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: xx-small;
+    text-align: center;
+}
+
+/* Used to indicate AREDN node on the /cgi-bin/scan page */
+.wscan-row-node {
+    background-color: rgb(245, 245, 247);
+}
+
+/* Tunnel Page Classes */
+.tun_network_row td {
+    padding: 5px;
+    border: solid 1px black;
+    border-radius: 10px;
+    /*background-color: rgb(108, 231, 232);*/
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+}
+
+.tun_client_row td {
+    padding: 2px;
+}
+
+.tun_client_list1:nth-child(odd) {
+    background: rgba(192, 192, 192, 0.5);
+}
+
+.tun_client_list2:nth-child(even) {
+    background: rgba(192, 192, 192, 0.5);
+}
+
+.tun_client_center_item {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#node_description_entry {
+    vertical-align: middle;
+    resize: none;
+}
+
+#node_description_display {
+    rgb(29, 29, 31);
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(245, 245, 247);
+    font-size: 12pt;
+    width: 100%;
+}
+
+.hidden-hosts {
+    /* light-ish grey */
+    color: #595959;
+}
+
+.aliased-hosts {
+    /* "peru" */
+    color: #CD853F;
+}
