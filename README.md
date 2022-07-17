@@ -1,4 +1,4 @@
-These are some CSS themes I made for AREDN nodes.
+These are some AREDN CSS themes.
 
 apple.css is an applesque theme
 
